@@ -18,10 +18,9 @@ def market_data_simulator():
         return jsonify({"error": f"Failed to send data: {str(e)}"}), 500  # Return error if something goes wrong
 
 
+
 # if __name__ == "__main__":
 #     market_data_simulator_app.run(port=9000)
-
-
 
 
 
